@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ice Cream </title>
+    <link rel="stylesheet" href="assets/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+/>
+</head>
+<body>
+    <section>
+        <div class="circle"> </div>
+        <header>
+            <a href="#"><img src="./assets/images/logo.jpg" class="logo"></a>
+            <ul class="navigation">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Menu</a></li>
+                <li><a href="#">What's New</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </header>
+        <div class="content">
+            <div class="textbox">
+                <h2> Crave Worthy Scoops</h2>
+                <p>"Indulge in a world of creamy delights with our handcrafted ice creams! Made with the finest ingredients and bursting with flavor, each scoop is a taste sensation. 
+                    From classic favorites like rich chocolate and creamy vanilla to adventurous combinations like salted caramel swirl and strawberry cheesecake, there's a flavor to 
+                    satisfy every craving. Treat yourself to the ultimate frozen treat experience and discover why our ice cream is simply irresistible!"</p>
+                <a hre="#">Learn More</a>
+            </div> 
+            
+            <div class="imgbox">
+                <div class="swiper mySwiperr">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide"><img src="./assets/images/choco1.jpg"></div>
+                        <div class="swiper-slide"><img src="./assets/images/choco2.jpg"></div>
+                        <div class="swiper-slide"><img src="./assets/images/choco3.jpg"></div>
+                        <div class="swiper-slide"><img src="./assets/images/choco2.jpg"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+    </section>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+          effect: "coverflow",
+          grabCursor: true,
+          centeredSlides: true,
+          slidesPerView: "auto",
+          coverflowEffect: {
+            rotate: 50,
+            stretch: 0,
+            depth: 100,
+            modifier: 1,
+            slideShadows: true,
+          },
+          pagination: {
+            el: ".swiper-pagination",
+          },
+        });
+      </script>
+</body>
+</html>
