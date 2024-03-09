@@ -15,40 +15,109 @@
             <a href="#"><img src="./assets/images/logo.jpg" class="logo"></a>
             <ul class="navigation">
                 <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
                 <li><a href="#">Flavors</a></li>
                 <li><a href="#">What's New</a></li>
                 <li><a href="#">Contact</a></li>
-                <li><a href="#">Shop Now</a></li>
             </ul>
         </header>
-        <div class="content">
-            <div class="textbox">
-                <h2> Crave Worthy Scoops</h2>
-                <p>"Indulge in a world of creamy delights with our handcrafted ice creams! Made with the finest ingredients and bursting with flavor, each scoop is a taste sensation. 
-                    From classic favorites like rich chocolate and creamy vanilla to adventurous combinations like salted caramel swirl and strawberry cheesecake, there's a flavor to 
-                    satisfy every craving. Treat yourself to the ultimate frozen treat experience and discover why our ice cream is simply irresistible!"</p>
-                <button><a hre="#">LEARN MORE</a></button>
-            </div> 
-            
-            <div class="imgbox">
-               <img src="./assets/images/choco3.jpg" class="icecream">   
+       
+    </section>
+
+
+    <div class="content">
+        <div class="textbox">
+            <h2> Crave Worthy Scoops</h2>
+            <p>"Indulge in a world of creamy delights with our handcrafted ice creams! Made with the finest ingredients and bursting with flavor, each scoop is a taste sensation. 
+                From classic favorites like rich chocolate and creamy vanilla to adventurous combinations like salted caramel swirl and strawberry cheesecake, there's a flavor to 
+                satisfy every craving. Treat yourself to the ultimate frozen treat experience and discover why our ice cream is simply irresistible!"</p>
+            <button><a hre="#">LEARN MORE</a></button>
+        </div> 
+        
+        <div class="imgbox">
+           <img src="./assets/images/choco3.jpg" class="icecream">   
+        </div>
+  
+    <ul class="thumb">
+        <li><img src="./assets/images/choco3.jpg" onclick="imgSlider('./assets/images/choco3.jpg')"></li>
+        <li><img src="./assets/images/choco2.jpg"  onclick="imgSlider('./assets/images/choco2.jpg')"></li>
+        <li><img src="./assets/images/choco1.png"  onclick="imgSlider('./assets/images/choco1.png')"></li>
+        <li><img src="./assets/images/choco4.jpg"  onclick="imgSlider('./assets/images/choco4.jpg')"></li>
+        <li><img src="./assets/images/choco5.jpg"  onclick="imgSlider('./assets/images/choco5.jpg')"></li>
+        <li><img src="./assets/images/choco6.jpg"  onclick="imgSlider('./assets/images/choco6.jpg')"></li>
+    </ul>
+    </div> 
+
+    <div class="heading">
+    <br>
+    <br>
+    <h1 class="title"> ABOUT US </h1>
+    <div class="about">
+        <div class="about-us">
+            <h2> "Crafting dairy-free delights that are delicious,<br> sustainable, and better for the planet."</h2>
+            <p>We are committed to crafting dairy alternatives that are not only delicious but also sustainable and healthy.
+                 The plant-based products replicate the taste, texture, and functionality of traditional dairy without relying on animals. 
+                 By using innovative ingredients, Eclipse Foods reduces the environmental footprint associated with dairy production, 
+                 making our products a more environmentally friendly choice. We focus on sustainability extends to our packaging,
+                  which is designed to be as eco-friendly as possible. We believe that great food can change the world, 
+                  and we are dedicated to making a positive impact through our products.</p>         
+        </div>
+        <div class="eclipse">
+            <img src="./assets/images/eclipse.jpg" class="tag">
+        </div> 
+    </div>
+    </div>
+ 
+    <div class="headings">
+    <h1 class="flavor">FLAVORS</h1>
+
+    <div class="flavors">
+        <div class="box-container">
+            <div class="box">
+                <img src="./assets/images/chef1.webp">
+                <p>Chef JJ x Eclipse: Roasted Plantain Coconut Cream & Salted Caramel</p>
+            </div>
+
+            <div class="box">
+                <img src="./assets/images/chef2.jpeg">
+                <p>State Bird Provisions x Eclipse: Toasted Almond Thyme</p>
+            </div>
+
+            <div class="box">
+                <img src="./assets/images/chef3.jpeg">
+                <p>Flour Bakery x Eclipse: Sticky Sticky Bun</p>
             </div>
         </div>
-        <ul class="thumb">
-            <li><img src="./assets/images/choco3.jpg" onclick="imgSlider('./assets/images/choco3.jpg')"></li>
-            <li><img src="./assets/images/choco2.jpg"  onclick="imgSlider('./assets/images/choco2.jpg')"></li>
-            <li><img src="./assets/images/choco1.png"  onclick="imgSlider('./assets/images/choco1.png')"></li>
-            <li><img src="./assets/images/choco4.jpg"  onclick="imgSlider('./assets/images/choco4.jpg')"></li>
-            <li><img src="./assets/images/choco5.jpg"  onclick="imgSlider('./assets/images/choco5.jpg')"></li>
-            <li><img src="./assets/images/choco6.jpg"  onclick="imgSlider('./assets/images/choco6.jpg')"></li>
-        </ul>
-    </section>
+
+        
+        
+        <div class="box-containers">
+            <div class="boxs">
+                <img src="./assets/images/chef4.webp">
+                <p>Pig and Khao x Eclipse: Mango Coconut Sticky Rice</p>
+            </div>
+
+            <div class="boxs">
+                <img src="./assets/images/chef5.webp">
+                <p>Nami Nori x Eclipse: Miso Maple Sesame Candy Crunch</p>
+            </div>
+
+            <div class="boxs">
+                <img src="./assets/images/chef6.jpeg">
+                <p>Monsieur Benjamin x Eclipse: Palmier Cookie with Calvados Caramel</p>
+            </div>
+        </div>
+
+        <button>VIEW ALL</button>
+        
+    </div>
+   
+
+
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-    <script type="text/javascript">
-        function imgSlider(anything){
-            document.querySelector('.icecream').src = anything;
-        }
-    </script>
-    
+
+    <script type="text/javascript" src="./assets/script.js"></script>
+
+   
 </body>
 </html>
